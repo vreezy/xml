@@ -1,0 +1,22 @@
+{
+  "name": "xml-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getLinks": "npx tsc && node getLinks.js",
+    "deleteNonExisitngElements": "npx tsc && node deleteNonExistingElements.js",
+    "createReport": "npx tsc && node createReport.js",
+    "analyzeAdditionalNotes": "npx tsc && node analyzeAdditionalNotes.js"
+  },
+  "author": "Lars 'vreezy' Eschweiler",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/xml2js": "^0.4.11",
+    "typescript": "^5.0.4"
+  }
+}
