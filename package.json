@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "getLinks": "npx tsc && node getLinks.js",
-    "deleteNonExisitngElements": "npx tsc && node deleteNonExistingElements.js",
-    "createReport": "npx tsc && node createReport.js",
-    "analyzeAdditionalNotes": "npx tsc && node analyzeAdditionalNotes.js"
+    "vkf": "npx tsc && node vkf.js"
   },
   "author": "Lars 'vreezy' Eschweiler",
   "license": "MIT",
